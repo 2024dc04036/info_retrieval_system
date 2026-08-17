@@ -1,0 +1,358 @@
+{
+  "docs": [
+    {
+      "id": 0,
+      "title": "Information retrieval",
+      "url": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "content": "Information retrieval is the science of searching for relevant documents within large collections of text. A search engine takes a user query, matches it against an index, and returns a ranked list of documents. Core components include crawling, indexing, ranking and evaluation. Retrieval quality is measured with precision, recall and ranking metrics such as mean average precision and normalised discounted cumulative gain.",
+      "seed_topic": "Information retrieval",
+      "categories": [
+        "Information retrieval"
+      ],
+      "content_hash": "0b918687d7eecf21fa711eb747deedc3",
+      "depth": 0
+    },
+    {
+      "id": 1,
+      "title": "Inverted index",
+      "url": "https://en.wikipedia.org/wiki/Inverted_index",
+      "content": "An inverted index is the central data structure of a search engine. It maps every term to the list of documents that contain that term, called a postings list. Instead of scanning every document, the engine looks up the query terms and intersects their postings lists. Inverted indexes support fast Boolean and ranked retrieval over millions of documents and are built using algorithms such as blocked sort-based indexing and SPIMI.",
+      "seed_topic": "Information retrieval",
+      "categories": [
+        "Information retrieval"
+      ],
+      "content_hash": "9140422024fba0a122fc19132aebe015",
+      "depth": 0
+    },
+    {
+      "id": 2,
+      "title": "Tf idf",
+      "url": "https://en.wikipedia.org/wiki/Tf_idf",
+      "content": "Term frequency inverse document frequency, or tf-idf, is a weighting scheme that scores how important a term is to a document within a collection. Term frequency rewards words that appear often in a document, while inverse document frequency penalises words that appear in many documents. The vector space model represents documents as tf-idf vectors and ranks them by cosine similarity to the query vector.",
+      "seed_topic": "Information retrieval",
+      "categories": [
+        "Information retrieval"
+      ],
+      "content_hash": "3eb4f5a7cd5dfd08a8a8fff86ba7b486",
+      "depth": 0
+    },
+    {
+      "id": 3,
+      "title": "PageRank",
+      "url": "https://en.wikipedia.org/wiki/PageRank",
+      "content": "PageRank is a link-analysis algorithm that measures the importance of web pages based on the structure of hyperlinks. It models a random surfer who clicks links at random; pages that receive many links from other important pages accumulate a higher score. PageRank complements text relevance by adding an authority signal, so highly connected documents rank higher even when their text match is similar to others.",
+      "seed_topic": "Information retrieval",
+      "categories": [
+        "Information retrieval"
+      ],
+      "content_hash": "9b1f51f9898cf3389eb52c04d2882f22",
+      "depth": 0
+    },
+    {
+      "id": 4,
+      "title": "Vector space model",
+      "url": "https://en.wikipedia.org/wiki/Vector_space_model",
+      "content": "The vector space model represents each document and query as a vector in a high dimensional term space. Each dimension corresponds to a term, weighted by tf-idf. The similarity between a query and a document is computed as the cosine of the angle between their vectors. Documents are then ranked in decreasing order of cosine similarity, giving a ranked retrieval result.",
+      "seed_topic": "Information retrieval",
+      "categories": [
+        "Information retrieval"
+      ],
+      "content_hash": "eed1ccb8c6f6a0e9c9a811b93d843c78",
+      "depth": 0
+    },
+    {
+      "id": 5,
+      "title": "Machine learning",
+      "url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "content": "Machine learning is a field of artificial intelligence in which computer systems learn patterns from data instead of being explicitly programmed. Learning tasks are commonly grouped into supervised learning, unsupervised learning and reinforcement learning. A model is trained on example data, evaluated on unseen data, and tuned to generalise well. Machine learning powers recommendation systems, ranking, classification and prediction.",
+      "seed_topic": "Machine learning",
+      "categories": [
+        "Machine learning"
+      ],
+      "content_hash": "3b5b3e69c5b5ada5b1d3148a186667b4",
+      "depth": 0
+    },
+    {
+      "id": 6,
+      "title": "Supervised learning",
+      "url": "https://en.wikipedia.org/wiki/Supervised_learning",
+      "content": "Supervised learning trains a model on labelled examples, where each input is paired with a known correct output. The model learns a mapping from inputs to outputs and is then used to predict labels for new, unseen inputs. Common supervised tasks are classification and regression. Popular algorithms include logistic regression, decision trees, support vector machines and neural networks.",
+      "seed_topic": "Machine learning",
+      "categories": [
+        "Machine learning"
+      ],
+      "content_hash": "750d2976f3c73b00b515dc850233e971",
+      "depth": 0
+    },
+    {
+      "id": 7,
+      "title": "Neural network",
+      "url": "https://en.wikipedia.org/wiki/Neural_network",
+      "content": "A neural network is a machine learning model loosely inspired by the brain. It is built from layers of connected units called neurons, each applying a weighted sum followed by a nonlinear activation function. Training adjusts the weights using backpropagation and gradient descent to minimise a loss function. Deep neural networks with many layers drive modern advances in vision and natural language processing.",
+      "seed_topic": "Machine learning",
+      "categories": [
+        "Machine learning"
+      ],
+      "content_hash": "4b2560da482f64558fa6d3729c35bb6a",
+      "depth": 0
+    },
+    {
+      "id": 8,
+      "title": "Decision tree",
+      "url": "https://en.wikipedia.org/wiki/Decision_tree",
+      "content": "A decision tree is a supervised learning model that predicts an output by asking a sequence of yes or no questions about the input features. Each internal node splits the data on a feature, and each leaf assigns a label. Decision trees are easy to interpret and form the basis of powerful ensemble methods such as random forests and gradient boosted trees.",
+      "seed_topic": "Machine learning",
+      "categories": [
+        "Machine learning"
+      ],
+      "content_hash": "ff8fa5e1922b014d2b2a0369e14961ac",
+      "depth": 0
+    },
+    {
+      "id": 9,
+      "title": "Overfitting",
+      "url": "https://en.wikipedia.org/wiki/Overfitting",
+      "content": "Overfitting occurs when a machine learning model learns the training data too closely, including its noise, and therefore performs poorly on new data. Signs of overfitting include high accuracy on training data but low accuracy on test data. Techniques to reduce overfitting include using more data, regularisation, simpler models, cross validation and early stopping.",
+      "seed_topic": "Machine learning",
+      "categories": [
+        "Machine learning"
+      ],
+      "content_hash": "fc24ff5075ec6b622fea860dc4f34b0f",
+      "depth": 0
+    },
+    {
+      "id": 10,
+      "title": "Natural language processing",
+      "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+      "content": "Natural language processing is the branch of artificial intelligence that enables computers to understand, interpret and generate human language. Typical tasks include tokenisation, part of speech tagging, named entity recognition, machine translation and question answering. Modern natural language processing relies heavily on word embeddings and neural networks trained on very large text collections.",
+      "seed_topic": "Natural language processing",
+      "categories": [
+        "Natural language processing"
+      ],
+      "content_hash": "fd7f41c3f222c5a3380575fada4ec4ad",
+      "depth": 0
+    },
+    {
+      "id": 11,
+      "title": "Word embedding",
+      "url": "https://en.wikipedia.org/wiki/Word_embedding",
+      "content": "A word embedding is a dense numeric vector that represents the meaning of a word. Words used in similar contexts end up with similar vectors, so simple arithmetic on embeddings can capture analogies. Popular methods to learn embeddings include word2vec, GloVe and the skip gram model. Embeddings are a core input to most modern natural language processing systems.",
+      "seed_topic": "Natural language processing",
+      "categories": [
+        "Natural language processing"
+      ],
+      "content_hash": "5facb5e40f4edcd787dbd9b098c3c188",
+      "depth": 0
+    },
+    {
+      "id": 12,
+      "title": "Tokenization",
+      "url": "https://en.wikipedia.org/wiki/Tokenization",
+      "content": "Tokenisation is the first step in most natural language processing pipelines. It splits raw text into smaller units called tokens, usually words or subwords. Good tokenisation handles punctuation, contractions and special characters consistently. The resulting tokens are then cleaned, for example by lowercasing and removing stop words, before being turned into features.",
+      "seed_topic": "Natural language processing",
+      "categories": [
+        "Natural language processing"
+      ],
+      "content_hash": "24c56ccfb0ed7b8f903b88f038fda35d",
+      "depth": 0
+    },
+    {
+      "id": 13,
+      "title": "Named entity recognition",
+      "url": "https://en.wikipedia.org/wiki/Named_entity_recognition",
+      "content": "Named entity recognition is a natural language processing task that locates and classifies named entities in text, such as people, organisations, locations and dates. It is often framed as a sequence labelling problem and solved with models such as conditional random fields or neural networks. Named entity recognition supports search, question answering and information extraction.",
+      "seed_topic": "Natural language processing",
+      "categories": [
+        "Natural language processing"
+      ],
+      "content_hash": "50c2d2668cad2db827a28d36a82a5814",
+      "depth": 0
+    },
+    {
+      "id": 14,
+      "title": "Big data",
+      "url": "https://en.wikipedia.org/wiki/Big_data",
+      "content": "Big data refers to datasets so large or complex that traditional tools cannot process them efficiently. It is often described by the three Vs: volume, velocity and variety. Big data systems distribute storage and computation across clusters of machines. Frameworks such as Hadoop and Spark let engineers store and analyse petabytes of data reliably and in parallel.",
+      "seed_topic": "Big data",
+      "categories": [
+        "Big data"
+      ],
+      "content_hash": "73377d2dfbc4cd8f3f88d1e0d31f0947",
+      "depth": 0
+    },
+    {
+      "id": 15,
+      "title": "Apache Kafka",
+      "url": "https://en.wikipedia.org/wiki/Apache_Kafka",
+      "content": "Apache Kafka is a distributed streaming platform used to publish and subscribe to streams of records in real time. Producers write messages to topics, which are split into partitions and replicated across brokers for fault tolerance. Consumers read messages in order within each partition. Kafka is widely used to build real time data pipelines and event driven applications at large scale.",
+      "seed_topic": "Big data",
+      "categories": [
+        "Big data"
+      ],
+      "content_hash": "67ad81d31ecf50c99292729ce88ad66c",
+      "depth": 0
+    },
+    {
+      "id": 16,
+      "title": "Apache Hadoop",
+      "url": "https://en.wikipedia.org/wiki/Apache_Hadoop",
+      "content": "Apache Hadoop is an open source framework for distributed storage and processing of very large datasets across clusters of commodity hardware. Its core components are the Hadoop distributed file system for storage and MapReduce or YARN for computation. Hadoop made it practical for many organisations to run big data analytics affordably and at scale.",
+      "seed_topic": "Big data",
+      "categories": [
+        "Big data"
+      ],
+      "content_hash": "98205fa8606c04109ea0cd852ea3ba49",
+      "depth": 0
+    },
+    {
+      "id": 17,
+      "title": "MapReduce",
+      "url": "https://en.wikipedia.org/wiki/MapReduce",
+      "content": "MapReduce is a programming model for processing large datasets in parallel across a cluster. The map step transforms input records into intermediate key value pairs, and the reduce step aggregates all values sharing a key. The framework handles data distribution, scheduling and fault tolerance, so developers focus only on the map and reduce logic.",
+      "seed_topic": "Big data",
+      "categories": [
+        "Big data"
+      ],
+      "content_hash": "1c061041cf206db8224e4d093c27db62",
+      "depth": 0
+    },
+    {
+      "id": 18,
+      "title": "Data lake",
+      "url": "https://en.wikipedia.org/wiki/Data_lake",
+      "content": "A data lake is a centralised repository that stores raw structured and unstructured data at any scale. Unlike a traditional data warehouse, a data lake keeps data in its native format until it is needed, following a schema on read approach. Data lakes support analytics, machine learning and big data processing over diverse data sources.",
+      "seed_topic": "Big data",
+      "categories": [
+        "Big data"
+      ],
+      "content_hash": "a13cd7e57824e21b60612e7747e5ce9a",
+      "depth": 0
+    }
+  ],
+  "edges": [
+    [
+      "Information retrieval",
+      "Inverted index"
+    ],
+    [
+      "Information retrieval",
+      "Tf idf"
+    ],
+    [
+      "Information retrieval",
+      "PageRank"
+    ],
+    [
+      "Information retrieval",
+      "Vector space model"
+    ],
+    [
+      "Information retrieval",
+      "Machine learning"
+    ],
+    [
+      "Inverted index",
+      "Tf idf"
+    ],
+    [
+      "Tf idf",
+      "Vector space model"
+    ],
+    [
+      "Vector space model",
+      "Tf idf"
+    ],
+    [
+      "PageRank",
+      "Information retrieval"
+    ],
+    [
+      "Vector space model",
+      "Information retrieval"
+    ],
+    [
+      "Machine learning",
+      "Supervised learning"
+    ],
+    [
+      "Machine learning",
+      "Neural network"
+    ],
+    [
+      "Supervised learning",
+      "Decision tree"
+    ],
+    [
+      "Supervised learning",
+      "Overfitting"
+    ],
+    [
+      "Neural network",
+      "Machine learning"
+    ],
+    [
+      "Neural network",
+      "Natural language processing"
+    ],
+    [
+      "Decision tree",
+      "Supervised learning"
+    ],
+    [
+      "Natural language processing",
+      "Word embedding"
+    ],
+    [
+      "Natural language processing",
+      "Tokenization"
+    ],
+    [
+      "Natural language processing",
+      "Named entity recognition"
+    ],
+    [
+      "Word embedding",
+      "Neural network"
+    ],
+    [
+      "Named entity recognition",
+      "Natural language processing"
+    ],
+    [
+      "Big data",
+      "Apache Kafka"
+    ],
+    [
+      "Big data",
+      "Apache Hadoop"
+    ],
+    [
+      "Big data",
+      "MapReduce"
+    ],
+    [
+      "Big data",
+      "Data lake"
+    ],
+    [
+      "Apache Hadoop",
+      "MapReduce"
+    ],
+    [
+      "MapReduce",
+      "Apache Hadoop"
+    ],
+    [
+      "Apache Kafka",
+      "Big data"
+    ],
+    [
+      "Data lake",
+      "Big data"
+    ],
+    [
+      "Machine learning",
+      "Big data"
+    ]
+  ]
+}

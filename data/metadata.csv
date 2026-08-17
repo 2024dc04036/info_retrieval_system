@@ -1,0 +1,20 @@
+id,title,url,seed_topic,length_chars,content_hash,depth
+0,Information retrieval,https://en.wikipedia.org/wiki/Information_retrieval,Information retrieval,426,0b918687d7eecf21fa711eb747deedc3,0
+1,Inverted index,https://en.wikipedia.org/wiki/Inverted_index,Information retrieval,432,9140422024fba0a122fc19132aebe015,0
+2,Tf idf,https://en.wikipedia.org/wiki/Tf_idf,Information retrieval,407,3eb4f5a7cd5dfd08a8a8fff86ba7b486,0
+3,PageRank,https://en.wikipedia.org/wiki/PageRank,Information retrieval,413,9b1f51f9898cf3389eb52c04d2882f22,0
+4,Vector space model,https://en.wikipedia.org/wiki/Vector_space_model,Information retrieval,371,eed1ccb8c6f6a0e9c9a811b93d843c78,0
+5,Machine learning,https://en.wikipedia.org/wiki/Machine_learning,Machine learning,437,3b5b3e69c5b5ada5b1d3148a186667b4,0
+6,Supervised learning,https://en.wikipedia.org/wiki/Supervised_learning,Machine learning,389,750d2976f3c73b00b515dc850233e971,0
+7,Neural network,https://en.wikipedia.org/wiki/Neural_network,Machine learning,412,4b2560da482f64558fa6d3729c35bb6a,0
+8,Decision tree,https://en.wikipedia.org/wiki/Decision_tree,Machine learning,356,ff8fa5e1922b014d2b2a0369e14961ac,0
+9,Overfitting,https://en.wikipedia.org/wiki/Overfitting,Machine learning,368,fc24ff5075ec6b622fea860dc4f34b0f,0
+10,Natural language processing,https://en.wikipedia.org/wiki/Natural_language_processing,Natural language processing,404,fd7f41c3f222c5a3380575fada4ec4ad,0
+11,Word embedding,https://en.wikipedia.org/wiki/Word_embedding,Natural language processing,364,5facb5e40f4edcd787dbd9b098c3c188,0
+12,Tokenization,https://en.wikipedia.org/wiki/Tokenization,Natural language processing,372,24c56ccfb0ed7b8f903b88f038fda35d,0
+13,Named entity recognition,https://en.wikipedia.org/wiki/Named_entity_recognition,Natural language processing,383,50c2d2668cad2db827a28d36a82a5814,0
+14,Big data,https://en.wikipedia.org/wiki/Big_data,Big data,365,73377d2dfbc4cd8f3f88d1e0d31f0947,0
+15,Apache Kafka,https://en.wikipedia.org/wiki/Apache_Kafka,Big data,390,67ad81d31ecf50c99292729ce88ad66c,0
+16,Apache Hadoop,https://en.wikipedia.org/wiki/Apache_Hadoop,Big data,351,98205fa8606c04109ea0cd852ea3ba49,0
+17,MapReduce,https://en.wikipedia.org/wiki/MapReduce,Big data,349,1c061041cf206db8224e4d093c27db62,0
+18,Data lake,https://en.wikipedia.org/wiki/Data_lake,Big data,338,a13cd7e57824e21b60612e7747e5ce9a,0
